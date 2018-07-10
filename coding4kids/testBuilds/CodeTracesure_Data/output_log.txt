@@ -1,0 +1,73 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7640G (ID=0x9903)
+    Vendor:   ATI
+    VRAM:     1761 MB
+    Driver:   13.251.9001.1001
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.099 seconds
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Olivia\Pictures\GameBackup\coding4kids-master\testBuilds\CodeTracesure_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.541024 ms
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Awake: DataBase (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: df0 -> priority: 1 
+  Thread -> id: 12fc -> priority: 1 
+success
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.537225 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 340.
+Total: 0.621487 ms (FindLiveObjects: 0.048595 ms CreateObjectMapping: 0.034557 ms MarkObjects: 0.497837 ms  DeleteObjects: 0.038876 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.492978 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 619.
+Total: 1.240814 ms (FindLiveObjects: 0.063714 ms CreateObjectMapping: 0.050755 ms MarkObjects: 1.100966 ms  DeleteObjects: 0.024297 ms)
+
+The referenced script on this Behaviour (Game Object 'Mask') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.548048 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 936.
+Total: 1.192758 ms (FindLiveObjects: 0.111770 ms CreateObjectMapping: 0.066954 ms MarkObjects: 0.967057 ms  DeleteObjects: 0.045356 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.286165 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 624.
+Total: 6.708390 ms (FindLiveObjects: 0.081533 ms CreateObjectMapping: 0.057775 ms MarkObjects: 1.253233 ms  DeleteObjects: 5.312069 ms)
+
