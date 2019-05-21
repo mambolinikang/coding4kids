@@ -10,6 +10,9 @@ public class EndGame : MonoBehaviour {
     private int timer;
     public bool ending = false;
     public string levelToProceed;
+    public string thisLevel;
+
+    public bool resetting;
 
     public gameData DB;
 
@@ -24,13 +27,14 @@ public class EndGame : MonoBehaviour {
     // Update is called once per frame
     public void Update()
     {
-		/*
+		
         if ((Input.GetKeyDown(KeyCode.Joystick1Button2) || Input.GetKeyDown(KeyCode.Alpha3))&& !ending)
         {
-            endLevel(SceneManager.GetActiveScene().name);
+            endLevel(thisLevel);
+            resetting = true;
 
-        }
-		*/
+}
+		
         if (ending)
         {
             if (timer > 0)
@@ -40,7 +44,8 @@ public class EndGame : MonoBehaviour {
             }
             else
             {
-                DB.SavePlayer();
+                if(!resetting)
+                    DB.SavePlayer();
                 DB.LoadScene(levelToProceed);
             }
         }

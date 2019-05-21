@@ -10,9 +10,11 @@ public class LevelOut : MonoBehaviour {
     public gameScore GS;
     public questionControl QC;
 
+    public int returnmod;
+
     public string nextLevel;
 
-    public int maxScore;
+    public int threeStarScore;
     public int levelNum;
 
     public bool endLevel;
@@ -28,7 +30,6 @@ public class LevelOut : MonoBehaviour {
             DB.PI.levelData[levelNum].played = true;
             DB.PI.levelLock++;
             
-
         }
         else
         {
@@ -41,19 +42,26 @@ public class LevelOut : MonoBehaviour {
         {
 
             nextLevel = "Menus/LevelSelect";
-            //DB.openMod = 1;
+
         }
         
-
-        if (GS.score == maxScore)
-        {
-            DB.PI.levelData[levelNum].score = GS.score;
-            DB.PI.levelData[levelNum].stars = 3;
-        }
         else if(GS.score > DB.PI.levelData[levelNum].score)
         {
             DB.PI.levelData[levelNum].score = GS.score;
-            DB.PI.levelData[levelNum].stars = (3*GS.score)/maxScore;
+            if (QC.rightQuestions == 5)
+            {
+                if(GS.score > 7000)
+                    DB.PI.levelData[levelNum].stars = 3;
+                else
+                    DB.PI.levelData[levelNum].stars = 2;
+
+            }
+            else
+            {
+
+                DB.PI.levelData[levelNum].stars = Mathf.RoundToInt((3.0f * (float)(QC.rightQuestions)) / 5.0f);
+
+            }
 
         }
         for (int i = 0; i < QC.questionsAnswered; i++)
@@ -77,6 +85,7 @@ public class LevelOut : MonoBehaviour {
             }
 
         }
+        DB.openMod = returnmod;
         ender.endLevel(nextLevel);
 
     }

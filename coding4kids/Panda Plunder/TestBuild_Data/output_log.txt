@@ -1,0 +1,79 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   23.20.16.4973
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.193 seconds
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\oncheey\Documents\ASSIGMENTS\coding4kidsOriginal\Panda Plunder\TestBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.286571 ms
+Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Awake: DataBase (UnityEngine.GameObject)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 1158 -> priority: 1 
+  Thread -> id: 23f8 -> priority: 1 
+  Thread -> id: 20 -> priority: 1 
+  Thread -> id: 9e0 -> priority: 1 
+success
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.577441 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 619.
+Total: 1.187269 ms (FindLiveObjects: 0.102399 ms CreateObjectMapping: 0.087039 ms MarkObjects: 0.958576 ms  DeleteObjects: 0.038115 ms)
+
+The referenced script on this Behaviour (Game Object 'Mask') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.884052 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 936.
+Total: 0.486399 ms (FindLiveObjects: 0.052906 ms CreateObjectMapping: 0.028444 ms MarkObjects: 0.381723 ms  DeleteObjects: 0.022186 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.348938 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 624.
+Total: 5.739511 ms (FindLiveObjects: 0.059164 ms CreateObjectMapping: 0.056888 ms MarkObjects: 0.839678 ms  DeleteObjects: 4.783210 ms)
+
+The referenced script on this Behaviour (Game Object 'Mask') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.742967 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 937.
+Total: 0.480710 ms (FindLiveObjects: 0.053475 ms CreateObjectMapping: 0.027875 ms MarkObjects: 0.369777 ms  DeleteObjects: 0.029582 ms)
+

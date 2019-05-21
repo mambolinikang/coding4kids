@@ -12,18 +12,22 @@ public class questionControl : MonoBehaviour {
     public int[] answers;
     public int[] indexes;
     public int questionsAnswered;
+    public int rightQuestions;
 
+    public int timer;
 
     private void Start()
     {
         questionsAnswered = 0;
+        rightQuestions = 0;
         answers = new int[questions.Count];
         indexes = new int[questions.Count];
         times = new List<System.DateTime>();
     }
 
     void Update () {
-		
+
+        
         if(questions.Count == 1)
         {
             ED.setGlow(1f);
@@ -37,5 +41,7 @@ public class questionControl : MonoBehaviour {
 
         }
 
-	}
+        timer++;
+
+    }
 }

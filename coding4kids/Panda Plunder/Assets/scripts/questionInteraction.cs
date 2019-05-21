@@ -25,6 +25,9 @@ public class questionInteraction : interaction {
 
     public bool trueFalse;
 
+    public int outBonus = 0;
+    const int timeBonus = 1000;
+
     public override void act()
     {
         questionImage.texture = questionImg;
@@ -32,6 +35,8 @@ public class questionInteraction : interaction {
         GetComponent<BoxCollider>().enabled = false;
         MC.enabled = false;
         StartCoroutine(questionInput());
+        outBonus += (QC.timer * 3) < timeBonus ? timeBonus - (QC.timer * 3) : 0;
+        QC.timer = 0;
 
     }
 
@@ -40,7 +45,6 @@ public class questionInteraction : interaction {
         int choice = 0;
         while (choice == 0)
         {
-
             if (Input.GetKeyDown(KeyCode.Z))
                 choice = 1;
             else if (Input.GetKeyDown(KeyCode.X))
@@ -55,9 +59,12 @@ public class questionInteraction : interaction {
         
         questionBox.toView = false;
         AudioClip outSound;
+        outBonus += (QC.timer * 3) < timeBonus ? timeBonus - (QC.timer * 3) : 0;
+        int outScore = 1000 + outBonus;
         if (choice == correct)
         {
-            GS.addScore(1000);
+            GS.addScore(outScore);
+            QC.rightQuestions++;
             outSound = correctSound;
         }
         else
