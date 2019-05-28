@@ -45,13 +45,13 @@ public class questionInteraction : interaction {
         int choice = 0;
         while (choice == 0)
         {
-            if (Input.GetKeyDown(KeyCode.Z))
+            if (Input.GetKeyDown(KeyCode.A))
                 choice = 1;
-            else if (Input.GetKeyDown(KeyCode.X))
+            else if (Input.GetKeyDown(KeyCode.B))
                 choice = 2;
             else if (Input.GetKeyDown(KeyCode.C)&&!trueFalse)
                 choice = 3;
-            else if (Input.GetKeyDown(KeyCode.V)&&!trueFalse)
+            else if (Input.GetKeyDown(KeyCode.D)&&!trueFalse)
                 choice = 4;
             yield return 0;
         }

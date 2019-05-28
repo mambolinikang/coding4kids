@@ -32,25 +32,25 @@ public class moveCharacter : MonoBehaviour {
         HPower = Input.GetAxis("Horizontal");
         VPower = Input.GetAxis("Vertical");
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
 
             VPower = 1;
 
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
 
             HPower = -1;
 
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
 
             VPower = -1;
 
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
 
             HPower = 1;
